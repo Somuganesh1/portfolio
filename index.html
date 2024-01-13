@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMU MEDAKA | Personal Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa25bbd7ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/SG-logo.png"class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#honors">Honors and Awards</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#leadership">Volunteer</a></li>
+                    <li><a href="#Internships">Internships</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">  
+                <p>Software Engineer</p>
+                <h1>Hi, I'm SOMU MEDAKA</h1>
+            </div>
+        </div>
+        <!------------------about------------------>
+        <div id="about">
+            <div class="container"> 
+                <div class="row">  
+                    <div class="about-col-1">
+                        <div style="margin-top: 205px;"></div>
+                        <img src="images/Main.png">
+                    </div>
+                    <div class="about-col-2"><br><br><br><br><br><br><br><br>
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello! I'm a passionate technologist and former president of the Voice Association, now honing my skills as a full-stack software engineer at LTIMindtree and pursuing a Master's in Computer Science at IIT Chicago. My days are filled with software engineering, while my nights are dedicated to adventure. I'm committed to continuous learning, as evidenced by my various internships and industry-recognized certifications. In my downtime, I enjoy gardening, a peaceful contrast to my fascination with AI, ML, NLP, and computer vision. Eager to explore technology's limitless possibilities, I aim to make a significant impact in the digital age.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">  
+                            <ul>
+                                <li><span>Programming Languages</span><br> C# | C++ | JavaScript | Python | SQL </li>                                      
+                                <li><span>Microsoft Technologies</span><br>.NET (C#, ASP.NET, ADO.NET, VB.NET)<br>
+                                    ASP.NET MVC | ASP.NET Core | ASP.NET Web API</li>
+                                <li><span>Frameworks & Libraries</span><br>Angular 8 | Bootstrap 4</li>
+                                <li><span>Databases</span><br>MongoDB | Microsoft SQL Server |RDBMS SQL</li>
+                                <li><span>Design & Simulation Software</span><br>HTML & CSS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">  
+                            <ul>
+                                <li><span>Mar 2022 - Jul 2023</span><br> Software Engineer at LTIMindtree </li>
+                                <p> ● Developing new applications for the client which includes backend and frontend along with the database.<br>
+                                    ● Implemented frontend using angular8 and bootstrap4 and backend with visual studio.<br>
+                                    ● My role is to build software using languages and technologies of the dot net framework. And create
+                                    applications from the scratch, configure existing systems and provide user support.</p>                                      
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">  
+                            <ul>
+                                <li><span>Aug 2023 - May 2025(Expected)</span><br>Masters in Computer Science<br>Artificial Intelligence Specialization<br> Illinois Institute of Technology, Chicago, IL</li>                                      
+                                <li><span>Aug 2021</span><br>Bachelor of Technology in Computer Science and Engineering with 7.42 GPA<br>Sri Vasavi Institute of Engineering and Technology<br>
+                                    Jawaharlal Nehru Technological University, Kakinada, India. (SVIET)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------Honors and Awards------- -->
+        <div id="honors">
+            <div class="container">
+                <h1 class="sub-title">Honors and Awards</h1>
+                <div class="internship-list">
+                    <div>
+                        <p> ● Completed Big Data in University of California San Diego through coursera.<br>
+                            ● Completed CCNA Networks in CISCO NETCAD with 87%.<br>
+                            ● Completed E-quiz on Java Programming in SRK Institute of Technology with 85%.<br>
+                            ● Cracked a job offer through HCL Technologies Qualifier Test - HCL Technologies.<br>
+                            ● Completed Python Programming in CISCO NETCAD.<br>
+                            ● Cracked a job offer through TCS National Qualifier Test – Tata Consultancy Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------Internships------------ -->
+        <div id="Internships">
+            <div class="container">
+                <h1 class="sub-title">My Internships</h1>
+                <div class="internships-list">
+                    <div>
+                        <i class="fa-solid fa-list-check"></i>
+                        <h2>Project Management<br>(Project Manager)</h2>
+                        <p> ● Successfully managed the creation of a Robotics Process Automation platform within a budget of
+                            $30,000, ensuring efficient project execution.<br>
+                            ● Developed comprehensive project plans, including a project charter, work breakdown structure, and
+                            utilized project management tools such as RACI matrix, Gantt chart, and risk management.<br>
+                            ● Demonstrated strong leadership skills and effective communication in collaborating with global
+                            teams to achieve project goals and deliverables</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h2>Esports and Game Design<br>(Game Designer)</h2>
+                        <p> ● Led as Project Lead for the development of "Chronicles of Elysia: The Dimensional Gate," a 3D fantasy
+                            RPG game.<br>
+                            ● Successfully designed the game mechanics, storyline, and gameplay flow, incorporating elements of
+                            character development, combat, puzzle-solving, and immersive visuals.<br>
+                            ● Demonstrated proficiency in project management, creative problem-solving, and collaboration,
+                            resulting in the creation of an engaging and immersive gaming experience.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2> Cybersecurity : Defensive Hacking<br>(Defence Hacker)</h2>
+                        <p> ● Served as a Defense Hacker and Project Manager, gaining practical knowledge and hands-on
+                            experience in various cybersecurity domains.<br>
+                            ● Developed expertise in operating system hardening, cryptography, IDS/firewalls/antivirus, and
+                            cybersecurity controls.<br>
+                            ● Applied tools and techniques such as Wireshark, Nmap, Thunderbird, Tripwire, iptables, Clam AV, and
+                            Nessus to secure networks, detect threats, and implement effective cybersecurity measures.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        <h2>Data Visualization<br>(Data Analyst)</h2>
+                        <p> ● Led as Project Lead for the Superhero-U campaign, utilizing data visualization tools to present
+                            campaign insights and recommendations.<br>
+                            ● Successfully created and presented visualizations of campaign data sets, providing valuable insights
+                            for decision-making and identifying areas for improvement.<br>
+                            ● Demonstrated proficiency in data analysis, visualization techniques, and strategic recommendations,
+                            contributing to the success of the campaign and enhancing data-driven decision-making capabilities.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-camera"></i>
+                        <h2>Digital Marketing<br>(Social Media Analyst)</h2>
+                        <p> ● Served as Project Lead and Social Media Analyst, conducting a comprehensive social media audit,
+                            developing key messages, and creating strategies for small business improvement.<br>
+                            ● Designed and implemented data-driven digital marketing campaigns, focusing on audience
+                            segmentation, content marketing, influencer collaborations, and email marketing.<br>
+                            ● Gained practical experience in analyzing metrics, optimizing social media presence, and refining
+                            marketing strategies to drive brand awareness and customer engagement.<br>
+                            ● Demonstrated proficiency in digital marketing best practices, including SEO, audience targeting, and
+                            data analysis, while staying adaptable and creative in the dynamic fashion industry</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-business-time"></i>
+                        <h2> Entrepreneurship and Innovation<br>(Innovation Consultant)</h2>
+                        <p> ● Served as a Project Manager and Innovation Consultant, driving the creation and development of a
+                            groundbreaking online learning product.<br>
+                            ● Designed and implemented features such as AI-powered virtual tutor, language customization,
+                            hands-on learning simulations, and task scheduling to enhance the online learning experience.<br>
+                            ● Demonstrated market awareness, analyzing the growing market size of online learning and
+                            positioning the product within the competitive landscape.<br>
+                            ● Contributed to Global Shala’s Excelerate platform, offering students access to our innovative
+                            application and its advanced features for virtual internships and courses.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-computer"></i>
+                        <h2>Cognizant's Artificial Intelligence</h2>
+                        <p> ● Completed a job simulation focused on AI for Cognizant’s Data Science team.
+                            Conducted exploratory data analysis using Python and Google Colab for one of
+                            Cognizant’s technology-led clients, Gala Groceries.<br>
+                            ● Prepare a Python module that contains code to train a model and output the
+                            performance metrics for the Machine Learning engineering team.<br>
+                            ● Communicated findings and analysis in the form of a PowerPoint slide to
+                            present the results back to the business.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--     --------projects--------  -->
+        <div id="Project">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1> <br>
+                <div class="Project-list">
+                    <div class="project">
+                        <img src="images/work6.png">
+                        <div class="layer">
+                            <h3>Twitter Sentiment Analysis</h3>
+                            <p>● To Identify a Deep learning model for sentiment analysis of tweets with minimal bias, by exploring various deep learning 
+                                models, including CNN, Bidirectional LSTM and RoBERTa, to train and evaluate their performance in sentiment analysis.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div><br>
+                    <div class="project">
+                        <img src="images/work7.png">
+                        <div class="layer">
+                            <h3>Advancing Fairness and Privacy in Federated Models</h3>
+                            <p>● Led a Federated Learning project focusing on fairness and robustness in machine learning, employing advanced 
+                                techniques like FedAvg and Q-FedAvg in a Convolutional Neural Network.<br>
+                               ● Conducted extensive research on gradient averaging impact using FEMNIST and UCI Adult datasets, emphasizing 
+                               differential privacy to align with real-world, privacy-centric scenarios.<br>
+                               ● Evaluated and optimized machine learning models for accuracy and fairness, achieving notable improvements in 
+                               Demographic Parity and Accuracy Parity, steering towards equitable AI solutions.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div><br>
+                    <div class="project">
+                        <img src="images/work4.png">
+                        <div class="layer">
+                            <h3>Organic farm</h3>
+                            <p> ● I had implemented a website where first we need to register and login and can add shops and products.<br>
+                                ● User can get product by product type and admin can manage the product price, discount, and all.
+                                </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div><br>
+                    <div class="project">
+                        <img src="images/work1.png">
+                        <div class="layer">
+                            <h3>Intern Management System</h3>
+                            <p>● An intern management system is a software, that helps an organization intern to give their best efforts every
+                                day to achieve the goals of an organization. It guides and manages intern’s efforts in right direction. It also
+                                securely stores and manages personal and other work-related details of interns. That makes it easier to store
+                                and access the data when there is need.<br>
+                                ● I have designed an application for intern management system website with Asp.net, Web API, Angular8, Dot
+                                net testing using jasmine and karma, MS test, Proper normalization, Exception handling, Log4Net, C#, SQL
+                                server.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div><br>
+                    <div class="project">
+                        <img src="images/work2.png">
+                        <div class="layer">
+                            <h3>Covid Vaccination Management App</h3>
+                            <p> ● I had created a website for customers to book vaccination appointment which should be responsive to any
+                                device like Laptop, Desktop, or mobiles. I have used Bootstrap and Angular.<br>
+                                ● I had created a registration form for vaccination to customer and provide a login page so that they can see 
+                                the details etc.<br>
+                                ● Here I implemented UI/UX of the SPA application using HTML5, Angular, and backend with API. Net core</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div><br>
+                    <div class="project">
+                        <img src="images/work3.png">
+                        <div class="layer">
+                            <h3>Theatre Booking System</h3>
+                            <p> ● I have designed theatre booking system for action movies where you can have multiple theatres and users,
+                                users can register to any theatre.<br>
+                                ● User can select any theatre using dropdown and fetch all users. And users can be able to delete and update 
+                                his profile. I had used OAuth to login as user</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div><br>
+                    <div class="project">
+                        <img src="images/work5.png">
+                        <div class="layer">
+                            <h3>Detecting spam emails with machine learning optimized with bio-inspired metaheuristic algorithms</h3>
+                            <p> ● Developed this project that aims to implement machine learning models on email dataset along with
+                                bio-inspired algorithms were implemented to optimize the performance of classifiers.<br>
+                                ● Completed the system design using unified modelling language, block diagram and use case diagrams.
+                                ● Implemented data set reading and inspection that can be taken as spam assassin and genetic algorithm   
+                                to optimize the performance of classifiers. Implemented code based on the multinomial naive bayes that relies on bayes theorem</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div> 
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+         <!-- -------voluntreeing------- -->
+         <div id="leadership">
+            <div class="container">
+                <h1 class="sub-title">Leadership and Community Engagement</h1>
+                <div class="internship-list">
+                    <div>
+                        <h2>President and Treasurer, VOICE Association, <br>Computer Science & Engineering Dept.</h2>
+                        <p> ● Served as the elected president for two consecutive years and as a treasurer for one year,<br> demonstrating strong leadership and financial management skills.<br>
+                        <h2>Event Coordination and Management.</h2>
+                        <p> ●  Successfully organized and managed various departmental events, showcasing effective planning and team coordination abilities.<br>
+                        <h2>Community Service and Education</h2>
+                        <p> ● Actively volunteered at a local blind school, assisting in fundraising initiatives and teaching key subjects like Physics and <br> Mathematics, reflecting a commitment to social responsibility and educational outreach.<br>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------contact--------- -->
+        <div id="contact">   
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i> Smedaka@hawk.iit.edu</p>
+                        <p> <i class="fa-solid fa-phone"></i> +1 (312)-885-8501</p>
+                        <div class="social-icons">
+                            <a href="www.linkedin.com/in/somu-medaka"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/somu.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder=" your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxcDobBKUMBaCF7TdbdI-LET6yFPLFrnW2hQmXV6fujVO6dD3ik6onisBYPlf02Fm7UVg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
